@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,181 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+header {
+  background-color: #170a1c;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.neon {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(160deg, #c19ab7, #9c95dc, #228cdb, #0b7189);
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0 40px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0 15px 50px;
+  color: #228cdb;
+  cursor: pointer;
+  font-weight: 675;
+}
+
+ul {
+  margin: 0 auto;
+}
+
+.selected {
+  color: #c19ab7;
+}
+
+main {
+background-image: linear-gradient(160deg, #c19ab7, #9c95dc, #228cdb, #0b7189);
+height: 1000px;
+padding: 40px;
+}
+
+h2 {
+  color:#170a1c;
+  margin: 0;
+  padding: 50px;
+  font-size: 35px;
+}
+
+.about-me {
+  display: flex;
+}
+
+.ya-boy {
+  height: 300px;
+  width: 300px;
+  padding: 20px 80px;
+  border-top-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  display: inline;
+  object-fit: cover;
+}
+
+.blurb {
+  font-weight: 450;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.portfolio {
+  margin: 20px;
+  background-color:#0b7189;
+  border: solid 4px #170a1c;
+  border-radius: 35px;
+}
+
+.works-container {
+  width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 150px;
+}
+
+.mybrary {
+  width: 100%;
+  text-align: center;
+  background-color: #2f97c1;
+    font-family: 'brush script mt', 'book antiqua', serif;
+    font-size: 110px;
+    border: #001242 solid 5px;
+    color: #001242;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 60px 0;
+    text-decoration: none;
+    border-top-right-radius: 25% 100%;
+    border-bottom-left-radius: 25% 100%;
+}
+
+.the-technocracy {
+  width: 50%;
+  color: #ff7b00;
+  text-align: center;
+    background-color: #020122;
+    font-family: 'arial black', Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 45px 0;
+    border-top-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    text-decoration: none;
+}
+
+.weather-dashboard {
+  width: 50%;
+  text-align: center;
+  background-color: #3a0ca3;
+    color: #b5179e;
+    font-family: 'impact', sans-serif;
+    font-size: 60px;
+    padding: 50px 0;
+    border-top-right-radius: 50% 100%;
+    border-bottom-left-radius: 50% 100%;
+    text-decoration: none;
+}
+
+.lyrical-ta {
+  width: 100%;
+  text-align: center;
+  background-color: #172a3a;
+    font-size: 65px;
+    padding: 85px 0;
+    text-decoration: none;
+    color: white;
+    border-bottom-right-radius: 25% 100%;
+    border-top-left-radius: 25% 100%;
+    font-weight: bold;
+}
+
+.malcolm-esque {
+  width: 50%;
+  text-align: center;
+  background-image: url("./images/ionic.jpg");
+  background-size: cover;
+  background-position: center center;
+  font-family: 'gill sans', 'Times New Roman', Times, serif;
+  color: #a4bef3;
+  text-shadow: 0px 0px 5px #553d36;
+  font-size: 60px;
+  padding: 85px 0;
+  border-top-right-radius: 50% 100%;
+  border-bottom-left-radius: 50% 100%;
+  text-decoration: none;
+}
+
+.run-buddy {
+  width: 50%;
+  text-align: center;
+    background-image: url("./images/hero-bg.jpg");
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fce138;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 85px 0;
+    text-decoration: none;
+    background-size: cover;
+    background-position: bottom;
+    border-bottom-right-radius: 50% 100%;
+    border-top-left-radius: 50% 100%;
 }
