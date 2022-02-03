@@ -15,32 +15,38 @@ function App() {
     {
       title: "mybrary",
       text: "MyBrary",
-      link: "https://mybrary2400.herokuapp.com/"
+      link: "https://mybrary2400.herokuapp.com/",
+      github: "https://github.com/Dustin2400/Mybrary"
     },
     {
       title: "the-technocracy",
-      text: "The \n Technocracy",
-      link: "https://the-technocracy.herokuapp.com/"
+      text: "The\nTechnocracy",
+      link: "https://the-technocracy.herokuapp.com/",
+      github: "https://github.com/Dustin2400/the-technocracy"
     },
     {
       title: "weather-dashboard",
-      text: "Weather \n Dashboard",
-      link: "https://dustin2400.github.io/weather-dashboard/"
+      text: "Weather\nDashboard",
+      link: "https://dustin2400.github.io/weather-dashboard/",
+      github: "https://github.com/Dustin2400/weather-dashboard"
     },
     {
       title: "lyrical-ta",
       text: "Lyrical TA",
-      link: "https://dustin2400.github.io/lyrical-ta/"
+      link: "https://dustin2400.github.io/lyrical-ta/",
+      github: "https://github.com/Dustin2400/lyrical-ta"
     },
     {
       title: "malcolm-esque",
       text: "Malcolm-esque",
-      link: "https://dustin2400.github.io/Malcolm-esque/"
+      link: "https://dustin2400.github.io/Malcolm-esque/",
+      github: "https://github.com/Dustin2400/Malcolm-esque"
     },
     {
       title: "run-buddy",
       text: "Run Buddy",
-      link: "https://dustin2400.github.io/run-buddy/"
+      link: "https://dustin2400.github.io/run-buddy/",
+      github: "https://github.com/Dustin2400/Malcolm-esque"
     },
   ]
 
