@@ -88,9 +88,10 @@ h2 {
   font-weight: 450;
   font-size: 18px;
   padding: 30px;
+  font-weight: 550;
 }
 
-.portfolio {
+.content {
   margin: 20px;
   background-color:#0b7189;
   border: solid 4px #170a1c;
@@ -275,6 +276,56 @@ p {
   height: 75px;
 }
 
+form, .resume {
+  margin: 30px;
+  font-size: 20px;
+  font-weight: 650;
+  color: #c19ab7;
+  text-shadow: 0px 0px 10px #170a1c;
+}
+
+.resume a {
+  font-size: 20px;
+  font-weight: 650;
+  color: #c19ab7;
+  text-shadow: 0px 0px 10px #170a1c;
+  text-decoration: none;
+}
+
+.resume a:hover {
+  color: #9c95dc;
+}
+
+input, textarea {
+  margin: 5px;
+  font-size: 15px;
+}
+
+textarea {
+  height: auto;
+}
+
+.content label {
+  display: block;
+}
+
+button {
+  display: block;
+  background-color: #c19ab7;
+  border: solid #170a1c;
+  height: 50px;
+  width: 110px;
+  border-radius: 10px;
+  font-size: 20px;
+  color:#170a1c;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.error-text {
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width: 980px) {
   .malcolm-esque, .run-buddy {
     width: 100%;
@@ -306,7 +357,6 @@ p {
 @media screen and (max-width: 768px) {
   .the-technocracy {
     height: 225px;
-    display: flex;
     border-bottom-right-radius: 25% 100%;
     border-top-left-radius: 25% 100%;
   }

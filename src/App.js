@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-import Project from './components/Project'
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 import './App.css';
 
 function App() {
@@ -50,7 +52,8 @@ function App() {
     },
   ]
 
-  const [currentSelection, setCurrentSelection] = useState(selection[1]);
+  const [currentSelection, setCurrentSelection] = useState(selection[3]);
+  
 
   return (
     <div>
@@ -66,7 +69,7 @@ function App() {
           </div>
         )}
         {currentSelection === 'Portfolio' && (
-          <div className="portfolio">
+          <div className="content">
             <h2>Works</h2>
             <div className="works-container">
             {projects.map((project) => 
@@ -77,12 +80,14 @@ function App() {
         )}
         {currentSelection === 'Contact' && (
           <div>
-            <h2>Contact</h2>
+            <h2>Contact me</h2>
+            <Contact />
           </div>
         )}
         {currentSelection === 'Resume' && (
           <div>
             <h2>Resume</h2>
+            <Resume />
           </div>
         )}
       </main>
