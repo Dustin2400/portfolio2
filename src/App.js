@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -91,6 +92,7 @@ function App() {
           </div>
         )}
       </main>
+        <Footer />
     </div>
 
   );
