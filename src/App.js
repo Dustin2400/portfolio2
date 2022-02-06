@@ -53,7 +53,7 @@ function App() {
     },
   ]
 
-  const [currentSelection, setCurrentSelection] = useState(selection[3]);
+  const [currentSelection, setCurrentSelection] = useState(selection[0]);
   
 
   return (
