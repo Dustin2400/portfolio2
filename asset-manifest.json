@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio2/static/css/main.164e9538.css",
-    "main.js": "/portfolio2/static/js/main.3800a1ba.js",
+    "main.css": "/portfolio2/static/css/main.629bf75d.css",
+    "main.js": "/portfolio2/static/js/main.2c813858.js",
     "static/js/787.1297335f.chunk.js": "/portfolio2/static/js/787.1297335f.chunk.js",
+    "static/media/gym.png": "/portfolio2/static/media/gym.1ee55cda4d15ca771c7b.png",
     "static/media/hero-bg.jpg": "/portfolio2/static/media/hero-bg.000e1b5ff4f0b912c97f.jpg",
     "static/media/ionic.jpg": "/portfolio2/static/media/ionic.7714bb4317da255ce77e.jpg",
     "static/media/ya-boy.jpg": "/portfolio2/static/media/ya-boy.53c8a83860afcca697d8.jpg",
@@ -18,12 +19,12 @@
     "static/media/github-icon.png": "/portfolio2/static/media/github-icon.987334e9f782cc505f25.png",
     "static/media/MongoDB-logo.png": "/portfolio2/static/media/MongoDB-logo.b473c1c113167cdfe8b6.png",
     "index.html": "/portfolio2/index.html",
-    "main.164e9538.css.map": "/portfolio2/static/css/main.164e9538.css.map",
-    "main.3800a1ba.js.map": "/portfolio2/static/js/main.3800a1ba.js.map",
+    "main.629bf75d.css.map": "/portfolio2/static/css/main.629bf75d.css.map",
+    "main.2c813858.js.map": "/portfolio2/static/js/main.2c813858.js.map",
     "787.1297335f.chunk.js.map": "/portfolio2/static/js/787.1297335f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.164e9538.css",
-    "static/js/main.3800a1ba.js"
+    "static/css/main.629bf75d.css",
+    "static/js/main.2c813858.js"
   ]
 }
