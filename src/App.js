@@ -16,6 +16,12 @@ function App() {
 
   const projects = [
     {
+      title: "fitr",
+      text: "FITr",
+      link: "https://fitrfitr.herokuapp.com",
+      github: "https://github.com/SmasherCoder/fitr"
+    },
+    {
       title: "mybrary",
       text: "MyBrary",
       link: "https://mybrary2400.herokuapp.com/",
@@ -51,6 +57,7 @@ function App() {
       link: "https://dustin2400.github.io/run-buddy/",
       github: "https://github.com/Dustin2400/Malcolm-esque"
     },
+    
   ]
 
   const [currentSelection, setCurrentSelection] = useState(selection[0]);
